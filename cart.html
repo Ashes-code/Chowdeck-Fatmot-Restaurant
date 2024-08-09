@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart | Checkout - Fatmot Restaurant</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="icon" href="images/download (2).png">
+    </head>
+    <body>
+        <div 
+              class=""
+              style="
+                border-left: 2px solid rgb(244, 244, 244);
+                height: max-content;
+                width: max-content;
+                overflow-x: hidden;
+              "
+            >
+              <div class="" style="width: 100%">
+                <div
+                  style="
+                    margin-left: 10px;
+                    max-width: max-content;
+                    width: 100%;
+                    margin-top: 20px;
+                  "
+                >
+                  <div class="row">
+                    <div class="col-6">
+                      <p
+                        style="
+                          color: rgb(58, 115, 100);
+                          font-size: 13px;
+                          font-weight: 500;
+                          margin-top: 10px;
+                        "
+                      >
+                        Fatmot Restaurant
+                      </p>
+                    </div>
+                    <div class="col-6">
+                      <button type="submit" id="add-btn">
+                        + Add another pack
+                      </button>
+                    </div>
+                  </div>
+                  <hr style="max-width: 400px" />
+                  <div
+                    style="
+                      height: fit-content;
+                      border: 1px dashed rgb(212, 215, 219);
+                      border-radius: 5px;
+                      max-width: 370px;
+                    "
+                  >
+                    <div class="row">
+                      <div class="row ms-1 mt-2">
+                        <div class="col-12 d-flex">
+                          <p style="color: black; font-weight: 600">Pack 1</p>
+                          <div
+                            style="
+                              background-color: rgb(254, 243, 243);
+                              border-radius: 50%;
+                              margin-left: 275px;
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 24px;
+                              width: 24px;
+                            "
+                          >
+                            <a href=""
+                              ><img
+                                src="images/trash.png"
+                                alt=""
+                                style="height: 17px"
+                            /></a>
+                          </div>
+                        </div>
+                        <div class="col-12 d-flex mt-2">
+                          <div class="d-block">
+                            <p
+                              style="
+                                width: max-content;
+                                font-size: 15px;
+                                font-weight: 400;
+                              "
+                            >
+                              Small Turkey
+                            </p>
+                            <p
+                              style="
+                                margin-top: -20px;
+                                font-size: 12px;
+                                color: rgb(172, 166, 166);
+                              "
+                            >
+                              ₦1,300
+                            </p>
+                          </div>
+                          <div>
+                            <button
+                              type="submit"
+                              style="
+                                border: none;
+                                outline: none;
+                                background-color: rgb(243, 244, 246);
+                                border-radius: 30px;
+                                margin-left: 168px;
+                                width: 90px;
+                                height: 30px;
+                              "
+                            >
+                              -- 2 +
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <p
+                            style="
+                              width: max-content;
+                              font-size: 15px;
+                              font-weight: 400;
+                            "
+                          >
+                            Takeaway pack
+                          </p>
+                          <p
+                            style="
+                              margin-top: -20px;
+                              font-size: 12px;
+                              color: rgb(172, 166, 166);
+                            "
+                          >
+                            ₦300
+                          </p>
+                        </div>
+                        <div class="row mb-3 mx-4">
+                          <div class="col">
+                            <button
+                              type="submit"
+                              style="
+                                border: 1px solid rgb(172, 166, 166);
+                                border-radius: 30px;
+                                background-color: white;
+                                padding: 5px 15px;
+                                font-size: 12px;
+                                margin-left: -40px;
+                              "
+                            >
+                              + Add to this pack
+                            </button>
+                          </div>
+                          <div class="col">
+                            <button
+                              type="submit"
+                              style="
+                                border: 1px dashed rgb(172, 166, 166);
+                                border-radius: 10px;
+                                background-color: white;
+                                padding: 5px 15px;
+                                font-size: 12px;
+                                width: max-content;
+                              "
+                            >
+                              Duplicate this pack
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr style="max-width: 370px" />
+                  <div
+                    style="
+                      max-width: 370px;
+                      border-bottom: 1px solid rgb(212, 215, 219);
+                      padding-bottom: 10px;
+                    "
+                  >
+                    <div class="row">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Payment Method
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 13px;
+                            color: rgb(66, 224, 169);
+                            text-decoration: none;
+                          "
+                          >Choose</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row mt-1">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Promo Code
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 13px;
+                            color: rgb(66, 224, 169);
+                            text-decoration: none;
+                          "
+                          >Choose</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row" style="margin-top: -3px">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Choose Address
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 13px;
+                            color: rgb(66, 224, 169);
+                            text-decoration: none;
+                          "
+                          >Change</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row" style="margin-top: -3px">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Delivery Instructions
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 13px;
+                            color: rgb(66, 224, 169);
+                            text-decoration: none;
+                          "
+                          >Add</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row" style="margin-top: 3px">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Vendor Instructions
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 13px;
+                            color: rgb(66, 224, 169);
+                            text-decoration: none;
+                          "
+                          >Add</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                    style="
+                      background-color: rgb(230, 247, 241);
+                      border-radius: 5px;
+                      position: relative;
+                      margin-top: 20px;
+                      max-width: 370px;
+                      margin-left: 0px;
+                    "
+                  >
+                    <div class="col-12" style="padding-left: 30px">
+                      <img
+                        src="images/warning.png"
+                        alt=""
+                        style="
+                          height: 17px;
+                          position: absolute;
+                          top: 22px;
+                          left: 10px;
+                        "
+                      />
+                      <p
+                        style="
+                          color: black;
+                          font-size: 15px;
+                          font-weight: 500;
+                          margin-top: 10px;
+                          margin-left: 5px;
+                        "
+                      >
+                        Delivery includes PIN confirmation
+                      </p>
+                      <p
+                        style="
+                          color: rgb(172, 166, 166);
+                          font-size: 10px;
+                          margin-top: -18px;
+                          margin-left: 5px;
+                        "
+                      >
+                        This helps ensure thaat your order is given to the right
+                        person
+                      </p>
+                    </div>
+                  </div>
+                  <hr style="max-width: 370px" />
+                  <div style="max-width: 370px; padding-bottom: 10px">
+                    <div class="row">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Sub total(1 item)
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 15px;
+                            font-weight: 500;
+                            color: black;
+                            text-decoration: none;
+                          "
+                        >
+                          ₦2,900</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row mt-1">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Delivery fee
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 15px;
+                            font-weight: 500;
+                            color: black;
+                            text-decoration: none;
+                          "
+                        >
+                          ₦0</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 500">
+                          Service fee
+                        </p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 15px;
+                            color: black;
+                            font-weight: 500;
+                            text-decoration: none;
+                          "
+                        >
+                          ₦0</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <p style="font-size: 13px; font-weight: 600">Total</p>
+                      </div>
+                      <div class="col-6 text-end">
+                        <a
+                          href=""
+                          style="
+                            font-size: 15px;
+                            color: black;
+                            font-weight: 700;
+                            text-decoration: none;
+                          "
+                          >₦2,900</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 text-center mt-1">
+                        <div
+                          style="
+                            background-color: rgb(12, 81, 63);
+                            border-radius: 5px;
+                            width: 100%;
+                            height: 60px;
+                            padding-top: 15px;
+                          "
+                        >
+                          <a
+                            href=""
+                            style="
+                              color: white;
+                              text-decoration: none;
+                              font-size: 18px;
+                              font-weight: 600;
+                            "
+                            >Place order</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 text-center mt-3">
+                        <div
+                          style="
+                            background-color: rgb(253, 239, 235);
+                            border-radius: 5px;
+                            width: 100%;
+                            height: 60px;
+                            padding-top: 16px;
+                          "
+                        >
+                          <a
+                            href=""
+                            style="
+                              color: rgb(239, 114, 83);
+                              text-decoration: none;
+                              font-size: 18px;
+                              font-weight: 600;
+                            "
+                            >Clear orders</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 text-center">
+                        <div style="padding-top: 16px; position: relative">
+                          <a
+                            href=""
+                            style="
+                              color: rgb(112, 208, 129);
+                              text-decoration: none;
+                              font-size: 18px;
+                              font-weight: 400;
+                            "
+                            ><img
+                              src="images/bookmark.png"
+                              alt=""
+                              style="
+                                height: 15px;
+                                position: absolute;
+                                top: 24px;
+                                left: 110px;
+                              "
+                            />
+                            <p>Save for later</p></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </body>
+</html>

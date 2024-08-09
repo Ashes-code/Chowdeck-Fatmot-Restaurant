@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#add-btn{
+    width: max-content !important;
+    margin-left: 28px !important;
+}
